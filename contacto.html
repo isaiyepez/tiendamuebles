@@ -46,13 +46,13 @@
 
         <h2 class="text-center">Contacto</h2>
 
-        <form>
+        <form class="formulario" action="">
             <fieldset>
                 <legend>Tus Datos</legend>
 
                 <div class="campo">
                     <label for="nombre">Nombre</label>
-                    <input id="nombre" type="text" placeholder="Tu Nombre" />
+                    <input id="nombre" type="text" placeholder="Tu Nombre" required/>
                 </div>
 
                 <div class="campo">
@@ -60,9 +60,9 @@
                     <input id="asunto" type="text" placeholder="Tu Asunto" />
                 </div>
 
-                <div class="email">
+                <div class="campo">
                     <label for="email">E-mail</label>
-                    <input id="email" type="email" placeholder="Tu E-mail" />
+                    <input id="email" type="email" placeholder="Tu E-mail" required/>
                 </div>
 
                 <div class="campo">
@@ -119,6 +119,7 @@
                     </datalist>
                 </div>
             </fieldset>
+            <input class="btn" type="submit" value="Enviar Formulario" class="boton-verde"/>
         </form>
 
 
